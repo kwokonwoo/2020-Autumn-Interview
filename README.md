@@ -84,7 +84,20 @@
   - 二分查找
   - **数组去重**
   - 数组乱序
-
+  - 数组扁平化
+  ```js
+  function flatten(source, target = []) {
+    for (const item of source) {
+      if (Array.isArray(item)) {
+        flatten(item, target);
+      } else {
+        target.push(item);
+      }
+    }
+    return target;
+  }
+  ```
+ 
 #### Web
   - 从输入URL到浏览器完成页面渲染都发生了什么
   - 跨域
