@@ -34,8 +34,20 @@ console.log(document.cookie);
 ```
 
 # Web Storage
+localStorage是永久存储机制，sessionStorage是跨会话的存储机制。
+大多数浏览器给localStorage和sessionStorage设置了每个源（协议、域和端口）5MB的空间限制。
+
+## sessionStorage
+sessionStorage对象只存储会话数据，数据只会存储到浏览器关闭。存储在sessionStorage中的数据不受页面刷新影响，可以在浏览器奔溃并重启后恢复。
+
+## localStorage
+localStorage作为在客户端持久存储数据的机制，要访问同一个localStorage对象，页面必须来自同一个域（子域不可以）、在相同的端口上使用相同的协议。
+
+localStorage中的数据会保留到通过JavaScript删除或用户清楚浏览器缓存。localStorage数据不受页面刷新影响，也不会因关闭窗口、标签页或重启浏览器而丢失。
 
 ## Reference
 https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies
+
+https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
 
 马特·弗里斯比. JavaScript高级程序设计：第4版，P751-771.
