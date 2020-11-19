@@ -34,12 +34,6 @@
 - 隐式转换
 - DOM常用操作
 - 函数的call、apply和bind
-- 数组各种方法实现
-  - flat
-  - reduce
-  - map
-  - filter
-  - find
 - Ajax
 - 发布订阅模式
 - 构造函数new
@@ -84,19 +78,37 @@
   - 二分查找
   - **数组去重**
   - 数组乱序
-  - 数组扁平化
-  ```js
-  function flatten(source, target = []) {
-    for (const item of source) {
-      if (Array.isArray(item)) {
-        flatten(item, target);
-      } else {
-        target.push(item);
+  - 数组各种方法实现
+    - flat
+    ```js
+    function flatten(source, target = []) {
+      for (const item of source) {
+        if (Array.isArray(item)) {
+          flatten(item, target);
+        } else {
+          target.push(item);
+        }
       }
+      return target;
     }
-    return target;
+    ```
+  - reduce
+```js
+function flatten(source, target = []) {
+  for (const item of source) {
+    if (Array.isArray(item)) {
+      flatten(item, target);
+    } else {
+      target.push(item);
+    }
   }
-  ```
+  return target;
+}
+```
+  - map
+  - filter
+  - find
+
  
 #### Web
   - 从输入URL到浏览器完成页面渲染都发生了什么
