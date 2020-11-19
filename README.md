@@ -37,7 +37,7 @@
 - [防抖和节流](docs/js/issue-1.md)
 - [函数式编程](docs/js/issue-1.md)
 - [函数柯里化](docs/js/issue-1.md)
-- 设计模式
+- [设计模式](docs/js/issue-1.md)
   - [工厂模式](docs/js/issue-1.md)
 - **ES6**
   - [**let和const**](docs/js/issue-1.md)
@@ -85,7 +85,7 @@
   - [**回流（重排）与重绘**](docs/http/issue-1.md)
   - [性能优化](docs/http/issue-1.md)
     - [懒加载](docs/http/issue-1.md)
-  - [安全]
+  - [安全](docs/js/issue-1.md)
     - [XSS](docs/http/issue-1.md)
     - [CSRF](docs/http/issue-1.md)
 
