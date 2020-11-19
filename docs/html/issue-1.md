@@ -1,3 +1,4 @@
+# token
 # cookie
 HTTP Cookie是服务器发送到用户浏览器并保存在本地的一小块数据，它会在浏览器下次向**同一服务器**再发起请求时被携带并发送到服务器上，从而可以实现一下的目的：
 - 保持用户登陆状态
@@ -32,6 +33,8 @@ console.log(document.cookie);
 
 // "yummy_cookie=choco; tasty_cookie=strawberry"
 ```
+
+# session
 
 # Web Storage
 localStorage是永久存储机制，sessionStorage是跨会话的存储机制。
