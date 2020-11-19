@@ -1,6 +1,5 @@
 ### 2020-autumn-recruitment
 
-### Talk is cheap, show me the code.
 ### No silver bullet
 #### HTML
 - cookie、session、sessionStorage、localStorage
