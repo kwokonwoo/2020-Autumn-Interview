@@ -29,6 +29,7 @@ JavaScript可以通过`document.cookie`创建新的cookie，也可通过该属�
 document.cookie = "yummy_cookie=choco";
 document.cookie="tasty_cookie=strawberry";
 console.log(document.cookie);
+
 // "yummy_cookie=choco; tasty_cookie=strawberry"
 ```
 
