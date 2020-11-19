@@ -1,4 +1,3 @@
-### 2020 Autumn Interview
 ### No silver bullet
 #### HTML
 - cookie、session、sessionStorage、localStorage
