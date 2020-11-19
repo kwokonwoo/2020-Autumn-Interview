@@ -1,5 +1,4 @@
-### 2020-autumn-recruitment
-
+### 2020 Autumn Interview
 ### No silver bullet
 #### HTML
 - cookie、session、sessionStorage、localStorage
@@ -135,6 +134,7 @@
   - 浏览器的缓存机制
   - **回流（重排）与重绘**
   - 性能优化
+    - 懒加载
   - 安全
     - XSS
     - CSRF
