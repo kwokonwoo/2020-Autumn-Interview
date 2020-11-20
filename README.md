@@ -35,6 +35,7 @@
 - [函数的call、apply和bind](docs/js/issue-1.md)
 - [Ajax](docs/js/issue-1.md)
 - [事件委托](docs/js/issue-1.md)
+- [冒泡和捕获](docs/js/issue-1.md)
 - [发布订阅模式](docs/js/issue-1.md)
 - [构造函数new](docs/js/issue-1.md)
 - [事件循环](docs/js/issue-1.md)
