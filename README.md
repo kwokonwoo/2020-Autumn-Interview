@@ -10,7 +10,7 @@
 - [继承性](docs/css/issue-3.md)
 - [**选择器优先级**](docs/css/issue-4.md)
 - [伪类和伪元素](docs/css/issue-5.md)
-- [z-index](docs/css/issue-5.md)
+- [z-index](docs/css/issue-6.md)
 - [**垂直居中**](docs/css/issue-5.md)
 - [两列布局](docs/css/issue-5.md)
 - [三列布局](docs/css/issue-5.md)
