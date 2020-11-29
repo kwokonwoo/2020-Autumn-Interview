@@ -84,6 +84,7 @@
     - [flat](docs/http/issue-1.md)
     - [reduce](docs/http/issue-1.md)
     - [map](docs/http/issue-1.md)
+    - [slice](docs/http/issue-5-4.md)
     - [filter](docs/http/issue-1.md)
     - [find](docs/http/issue-1.md)
  
